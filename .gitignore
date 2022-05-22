@@ -1,4 +1,6 @@
 .idea/*
 .ipynb_checkpoints/*
+__pycache__/*
 venv/*
 main.py
+__init__.py
