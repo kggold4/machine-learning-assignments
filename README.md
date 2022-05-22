@@ -3,5 +3,5 @@
 > Perceptron & AdaBoost algorithms implementation
 
 By:
-@kggold4
-@TalSomech
+[@kggold4](https://www.github.com/kggold4)
+[@TalSomech](https://www.github.com/TalSomech)
