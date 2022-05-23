@@ -13,14 +13,22 @@ By:
 
 For this question see the notebook: [perceptron.ipynb](perceptron.ipynb).
 
-By given the [two_circles](data/two_circles.txt) of 150 points, we built a perceptron model that classified this data into two different group:
+By given the [two_circles](https://github.com/kggold4/machine-learning-ex3/blob/main/data/two_circle.txt) of 150 points, we built a ```perceptron``` model that classified this data into two different group:
 
 ![two_points](images/im1.png)
 
+<br><br>
+
 > Part 2 - Implement AdaBoost Algorithm:
 
-For this question see the notebook: [adaboost.ipynb](adaboost.ipynb)
+For this question see the notebook: [adaboost.ipynb](adaboost.ipynb).
 
-By given the [two_circles](data/four_circles.txt) of 150 points, we built an adaboost model that classified this data into four different group:
+By given the [two_circles](https://github.com/kggold4/machine-learning-ex3/blob/main/data/four_circle.txt) of 150 points, we built an ```adaboost``` model that classified this data into four different group:
 
 ![four_points](images/im2.png)
+
+<br><br>
+
+See instructions for this assignment in [PDF](https://github.com/kggold4/machine-learning-ex3/blob/main/hw3%202022.pdf)
+
+* See the [util_functions](util_functions.py) file to see addition helping functions and classes for there assignment.
