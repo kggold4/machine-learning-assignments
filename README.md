@@ -23,7 +23,7 @@ By given the [two_circles](https://github.com/kggold4/machine-learning-ex3/blob/
 
 For this question see the notebook: [adaboost.ipynb](adaboost.ipynb).
 
-By given the [two_circles](https://github.com/kggold4/machine-learning-ex3/blob/main/data/four_circle.txt) of 150 points, we built an ```adaboost``` model that classified this data into four different group:
+By given the [four_circle](https://github.com/kggold4/machine-learning-ex3/blob/main/data/four_circle.txt) of 150 points, we built an ```adaboost``` model that classified this data into four different group:
 
 ![four_points](images/im2.png)
 
