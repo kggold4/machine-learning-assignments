@@ -12,11 +12,9 @@ def create_data_from_file(file_name: str, get_rules: bool = False):
         for line in text.readlines():
             x, y, label = line.split()
             points.append(Point(float(x), float(y), int(label)))
-
     rules = None
     if get_rules:
         rules = create_lines(points)
-
     return points, rules
 
 
@@ -25,13 +23,13 @@ def split_data(points: list, split_size: float = 0.5):
 
 
 def create_lines(points):
-    rules=[]
+    rules = []
     for i in range(len(points)):
-        p1=points[i]
-        for j in range(i+1, len(points)):
+        p1 = points[i]
+        for j in range(i + 1, len(points)):
             p2=points[j]
-            rules.append(Line(p1,p2,1))
-            rules.append(Line(p1,p2,-1))
+            rules.append(Line(p1, p2,1))
+            rules.append(Line(p1, p2,-1))
     return np.array(rules)
 
 
@@ -64,7 +62,7 @@ def plot_labels(X, predicted_labels):
     plt.scatter(x=X[predicted_labels == 1, 1], y=X[predicted_labels == 1, 0], alpha=0.9, c='orange', label=1.0)
 
     # location of the legend
-    # plt.rcParams["figure.figsize"] = (7, 7)
+    plt.title('Data Points')
     plt.legend(loc='upper left')
     plt.show()
 
