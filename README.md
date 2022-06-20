@@ -39,7 +39,7 @@ See instructions for this assignment in [PDF](https://github.com/kggold4/machine
 
 > KNN algorithms implementation
 
-For this question see the notebook: [perceptron.ipynb](machine-learning-ex4/knn.ipynb).
+For this question see the notebook: [knn.ipynb](machine-learning-ex4/knn.ipynb).
 
 ```# TODO - complete here introduction summary of assignment 4```
 
