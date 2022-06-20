@@ -1,6 +1,8 @@
-.idea/*
-.ipynb_checkpoints/*
-__pycache__/*
-venv/*
-main.py
-__init__.py
+machine-learning-ex3/.idea/*
+machine-learning-ex3/.ipynb_checkpoints/*
+machine-learning-ex3/__pycache__/*
+machine-learning-ex3/venv/*
+machine-learning-ex3/main.py
+machine-learning-ex3/__init__.py
+
+machine-learning-ex4/__pycache__/*
